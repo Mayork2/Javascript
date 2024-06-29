@@ -1,13 +1,13 @@
 # Resolución del desafia 1
 
-2. Cambia el contenido de la etiqueta `h1` con `document.querySelector` y asigna el siguiente texto: `Hora del Desafío`.
+2. Cambia el contenido de la etiqueta h1 con document.querySelector y asigna el siguiente texto: Hora del Desafío.
 
-```javascript
+```javascript 
 let titulo = document.querySelector('h1');
 titulo.innerHTML = 'Hora del Desafío';
 ```
 
-3. Crea una función que muestre en la consola el mensaje `El botón fue clicado` siempre que se presione el botón `Console`.
+3. Crea una función que muestre en la consola el mensaje El botón fue clicado siempre que se presione el botón Console.
 
 En el `index.html` , agregamos en el `onclick` el siguiente código:
 
